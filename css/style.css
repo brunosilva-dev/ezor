@@ -1,0 +1,413 @@
+/* Fonte */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+/* Estilos Gerais */
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1c2226;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header img {
+  width: 7.5em;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.header_menu ul li a {
+  color: #f2d541;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.875em;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #fff;
+}
+
+/* Introdução Video */
+.bg_video {
+  margin-top: 114px;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1000;
+  background: url(/img/Background/ezor_backgroundsite.png) no-repeat center;
+  background-size: cover;
+}
+
+/* Sócios */
+.socios {
+  background-color: #1c2226;
+  margin-top: -4px;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.socios ul li img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100px;
+  border: #f2d541 solid 3px;
+}
+
+.socios ul li h2 {
+  font-size: 1.125em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+.socios ul li h3 {
+  font-size: 1em;
+  padding: 5px 0;
+}
+
+.socios ul li p {
+  font-size: 0.875em;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+
+/* Portfólio */
+.portfolio {
+  background: url(/img/Background/ezor_backgroundsite.png) no-repeat center;
+  background-size: cover;
+}
+
+.portfolio h2 {
+  color: #f2d541;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.portfolio h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #f2d541;
+  margin: 10px auto 10px auto;
+}
+
+.portfolio p {
+  color: #fff;
+  width: 400px;
+  font-size: 0.875em;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio ul {
+  padding-top: 40px;
+}
+
+.portfolio ul {
+  margin: 0 auto;
+}
+
+.portfolio ul li img {
+  border: solid 2px #f2d541;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.btn-portfolio {
+  font-size: 0.875em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #1c2226;
+  padding: 10px 30px;
+  background-color: #f2d541;
+  border-radius: 20px;
+}
+
+.btn-portfolio:hover {
+  background-color: #fff;
+  color: tomato;
+}
+
+/* Serviços */
+.servicos {
+  background-color: #f2d541;
+}
+
+.servicos h2 {
+  color: #1c2226;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.servicos h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1c2226;
+  margin: 10px auto 10px auto;
+}
+
+.servicos p {
+  font-size: 0.875em;
+  width: 400px;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.servicos ul li h3 {
+  font-size: 1.125em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.servicos ul li h3::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #1c2226;
+  margin: 10px auto 10px auto;
+}
+
+.servicos ul li {
+  border: 4px solid #1c2226;
+  padding-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.servicos ul li p {
+  max-width: 298px;
+}
+
+.servicos ul li img {
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.servicos ul .btn-margin {
+  margin-bottom: 40px;
+}
+
+.botao-servicos {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.btn-servicos {
+  font-size: 0.875em;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #f2d541;
+  padding: 10px 30px;
+  background-color: #1c2226;
+  border-radius: 20px;
+}
+
+.btn-servicos:hover {
+  background-color: #fff;
+  color: tomato;
+}
+
+/* Social */
+.social {
+  background-color: #1c2226;
+  text-align: center;
+}
+
+.social ul li {
+  display: inline;
+  margin: 0 30px;
+}
+
+.social ul li a {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.social ul li a i {
+  padding: 20px 0;
+}
+
+.social ul li a:hover {
+  color: #f2d541;
+}
+
+/* Footer */
+.footer {
+  background-color: #000;
+  color: #fff;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.footer h3::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #fff;
+  margin: 10px 0;
+}
+
+.footer ul li p {
+  font-size: 0.875em;
+}
+
+.footer .footer-item {
+  margin: 20px 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+}
+
+.footer ul li a:hover {
+  color: #f2d541;
+}
+
+.footer ul li a i {
+  margin-right: 10px;
+}
+
+.mapaSite {
+  padding-left: 50px;
+}
+
+.contateNos {
+  margin-right: 0;
+}
+
+/* Copyright */
+.copy {
+  background-color: #f2d541;
+  color: #1c2226;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+.copy p {
+  font-size: 0.875em;
+}
+
+.dev {
+  text-align: right;
+}
+
+.developer {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.copy span a {
+  color: seagreen;
+}
+
+.copy span a:hover {
+  color: tomato;
+}
+
+/* JavaScript */
+
+.js [data-slide] {
+  position: relative;
+}
+
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.js [data-slide-nav] {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.js [data-slide-nav] button {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 4px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #f2d541;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.js [data-slide-nav] button.active {
+  background: tomato;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
