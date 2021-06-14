@@ -58,7 +58,7 @@ img {
   bottom: 0;
   width: 100%;
   z-index: -1000;
-  background: url(/img/Background/ezor_backgroundsite.png) no-repeat center;
+  background: url(/img/videoEntrada/ezor_videosite.mp4) no-repeat center;
   background-size: cover;
 }
 
