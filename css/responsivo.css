@@ -12,7 +12,7 @@
   /*Footer*/
 
   .footer_redes ul li a {
-    border: 3px solid #fec63e;
+    border: 3px solid #ffaa07;
     display: block;
     padding: 6px;
   }
@@ -78,7 +78,7 @@
   }
 
   .header_menu ul li a {
-    background-color: #fec63e;
+    background-color: #ffaa07;
     color: #1c2226;
     width: 136px;
     display: block;
@@ -209,5 +209,9 @@
 
   .social ul li a i {
     font-size: 35px;
+  }
+
+  .contato_form {
+    margin-left: 30px;
   }
 } /* Final do estilo para smartphone */
