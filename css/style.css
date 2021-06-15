@@ -37,7 +37,7 @@ img {
 }
 
 .header_menu ul li a {
-  color: #f2d541;
+  color: #ffaa07;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -48,6 +48,10 @@ img {
 }
 
 .header_menu ul li a:hover {
+  color: #fff;
+}
+
+.header_menu ul li a.menu_ativo {
   color: #fff;
 }
 
@@ -74,7 +78,7 @@ img {
   width: 70px;
   height: 70px;
   border-radius: 100px;
-  border: #f2d541 solid 3px;
+  border: #ffaa07 solid 3px;
 }
 
 .socios ul li h2 {
@@ -102,7 +106,7 @@ img {
 }
 
 .portfolio h2 {
-  color: #f2d541;
+  color: #ffaa07;
   text-align: center;
   padding-top: 40px;
   font-size: 1.5em;
@@ -115,7 +119,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #f2d541;
+  background: #ffaa07;
   margin: 10px auto 10px auto;
 }
 
@@ -136,7 +140,7 @@ img {
 }
 
 .portfolio ul li img {
-  border: solid 2px #f2d541;
+  border: solid 2px #ffaa07;
   border-radius: 20px;
   margin-bottom: 20px;
 }
@@ -153,7 +157,7 @@ img {
   text-transform: uppercase;
   color: #1c2226;
   padding: 10px 30px;
-  background-color: #f2d541;
+  background-color: #ffaa07;
   border-radius: 20px;
 }
 
@@ -164,7 +168,7 @@ img {
 
 /* Serviços */
 .servicos {
-  background-color: #f2d541;
+  background-color: #ffaa07;
 }
 
 .servicos h2 {
@@ -238,7 +242,7 @@ img {
   font-weight: bold;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #f2d541;
+  color: #ffaa07;
   padding: 10px 30px;
   background-color: #1c2226;
   border-radius: 20px;
@@ -270,7 +274,7 @@ img {
 }
 
 .social ul li a:hover {
-  color: #f2d541;
+  color: #ffaa07;
 }
 
 /* Footer */
@@ -311,7 +315,7 @@ img {
 }
 
 .footer ul li a:hover {
-  color: #f2d541;
+  color: #ffaa07;
 }
 
 .footer ul li a i {
@@ -328,7 +332,7 @@ img {
 
 /* Copyright */
 .copy {
-  background-color: #f2d541;
+  background-color: #ffaa07;
   color: #1c2226;
   font-size: 16px;
   padding: 10px 0;
@@ -389,7 +393,7 @@ img {
   border-radius: 6px;
   text-indent: -99px;
   overflow: hidden;
-  background: #f2d541;
+  background: #ffaa07;
   margin-bottom: 30px;
   cursor: pointer;
 }

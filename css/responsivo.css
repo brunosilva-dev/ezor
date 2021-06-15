@@ -56,10 +56,13 @@
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 787px) {
+  html {
+    display: grid;
+  }
   /*Header*/
   .header {
     position: relative;
-    padding-bottom: 0px;
+    margin-bottom: -114px;
   }
 
   .header img {
@@ -202,5 +205,9 @@
 
   .copy {
     text-align: center;
+  }
+
+  .social ul li a i {
+    font-size: 35px;
   }
 } /* Final do estilo para smartphone */
