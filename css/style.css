@@ -131,18 +131,17 @@ img {
   margin: 0 auto;
 }
 
-.portfolio ul {
-  padding-top: 40px;
-}
-
-.portfolio ul {
-  margin: 0 auto;
+.portfolio ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .portfolio ul li img {
-  border: solid 2px #ffaa07;
-  border-radius: 20px;
-  margin-bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 470px;
+  border: 3px solid #ffaa07;
+  border-radius: 50px;
 }
 
 .btn {
@@ -352,7 +351,7 @@ img {
 }
 
 .copy span a {
-  color: seagreen;
+  color: white;
 }
 
 .copy span a:hover {
@@ -400,6 +399,7 @@ img {
 
 .js [data-slide-nav] button.active {
   background: tomato;
+  cursor: pointer;
 }
 
 .js [data-anime] {
