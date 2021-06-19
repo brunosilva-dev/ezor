@@ -1,4 +1,5 @@
 /*Estilo para tablets*/
+
 @media only screen and (min-width: 788px) and (max-width: 979px) {
   /*Qualidade Home*/
   .qualidade:after {
