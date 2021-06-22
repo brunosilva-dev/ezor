@@ -16,9 +16,9 @@ img {
 .header {
   top: 0;
   width: 100%;
-  background: #1c2226;
   padding: 15px 0;
-  z-index: 10;
+  position: relative;
+  z-index: 1;
 }
 
 .header img {
@@ -56,10 +56,10 @@ img {
 
 /* Introdução Video */
 .bg_video {
+  margin-top: -114px;
   right: 0;
   bottom: 0;
   width: 100%;
-  z-index: -1000;
   background: url(/img/videoEntrada/ezor_videosite.mp4) no-repeat center;
   background-size: cover;
 }

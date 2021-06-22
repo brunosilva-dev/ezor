@@ -1,6 +1,14 @@
 /*Estilo para tablets*/
 
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  .header {
+    margin-top: 43px;
+  }
+
+  .header img {
+    display: none;
+  }
+
   /*Qualidade Home*/
   .qualidade:after {
     right: 66px;
@@ -53,6 +61,74 @@
   .social ul li {
     margin: 0 10px;
   }
+
+  .mobile-btn {
+    display: block;
+    color:#ffaa07;
+    width: 36px;
+    height: 36px;
+    border-top: 4px solid;
+    margin: 0 20px 0 0;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    z-index: 999;
+  }
+  
+  .mobile-btn::after, .mobile-btn::before {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    background: currentColor;
+    position: relative;
+    transition: transform .2s ease;
+  }
+  
+  .mobile-btn.active {
+    border-top-color: transparent;
+  }
+  
+  .mobile-btn.active::after {
+    margin-top: 0px;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+  
+  .mobile-btn.active::before {
+    margin-top: 0px;
+    top: 6px;
+    transform: rotate(135deg);
+  }
+  
+  .menu-nav.mobile-menu {
+    position: fixed;
+    padding: 10px;
+    top: 60px;
+    right: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(60px, 0px, 0px);
+    transition: .3s;
+  }
+  
+  .menu-nav.mobile-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
+  .menu-nav.mobile-menu li {
+    display: block;
+  }
+  
+  .menu-nav.mobile-menu li a {
+    border-top: 2px solid;
+    width: 100%;
+    text-align: center;
+  }
+  
 } /* Final do estilo para tablets */
 
 /*Estilo para smartphone*/
@@ -63,11 +139,11 @@
   /*Header*/
   .header {
     position: relative;
-    margin-bottom: -114px;
+    margin-top: 198px;
   }
 
   .header img {
-    margin: 0 auto 10px auto;
+    display: none;
   }
 
   .header_menu {
@@ -215,4 +291,72 @@
   .contato_form {
     margin-left: 30px;
   }
+
+  .mobile-btn {
+    display: block;
+    color:#ffaa07;
+    width: 36px;
+    height: 36px;
+    border-top: 4px solid;
+    margin: 20px 20px 0 0;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+    z-index: 999;
+  }
+  
+  .mobile-btn::after, .mobile-btn::before {
+    content: '';
+    display: block;
+    height: 4px;
+    margin-top: 6px;
+    background: currentColor;
+    position: relative;
+    transition: transform .2s ease;
+  }
+  
+  .mobile-btn.active {
+    border-top-color: transparent;
+  }
+  
+  .mobile-btn.active::after {
+    margin-top: 0px;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+  
+  .mobile-btn.active::before {
+    margin-top: 0px;
+    top: 6px;
+    transform: rotate(135deg);
+  }
+  
+  .menu-nav.mobile-menu {
+    position: fixed;
+    padding: 10px;
+    top: 60px;
+    right: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate3d(60px, 0px, 0px);
+    transition: .3s;
+  }
+  
+  .menu-nav.mobile-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
+  .menu-nav.mobile-menu li {
+    display: block;
+  }
+  
+  .menu-nav.mobile-menu li a {
+    border-top: 2px solid;
+    width: 100%;
+    text-align: center;
+  }
+  
 } /* Final do estilo para smartphone */
